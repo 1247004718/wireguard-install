@@ -256,8 +256,6 @@ if [[ ! -e /etc/wireguard/wg0.conf ]]; then
 	done
 	FIREWALLD_IPV4_ADDRESS=$(echo "${SERVER_WG_IPV4}" | cut -d"." -f1-3)".0"
 	SERVER_IPV4_ADDRESS_PRE=$(echo "${SERVER_WG_IPV4}" | cut -d"." -f1-3)
-	echo "${SERVER_WG_IPV4}"
-	echo "${FIREWALLD_IPV4_ADDRESS}"
 	echo
 	echo "Enter a name for the first client:"
 	read -p "Name [client]: " unsanitized_client
