@@ -4,7 +4,7 @@
 #
 # Copyright (c) 2020 Nyr. Released under the MIT License.
 
-# edit by bigplayer 2023-02-25 
+# edit by bigplayer 2025-02-25 
 ## add function of Custom server ip address
 
 # Detect Debian users running the script with "sh" instead of bash
